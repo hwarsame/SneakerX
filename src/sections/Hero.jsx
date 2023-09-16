@@ -13,20 +13,20 @@ const Hero = () => {
       id="home"
       className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container "
     >
-      <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
-        <p className="text-xl font-montserrat text-coral-red ">
+      <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28 max-sm:mt-16 sm:py-16">
+        <p className="xl:text-3xl text-2xl font-montserrat text-sky-400  ">
           Our Summer Collection
         </p>
         <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
           <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10">
             Shop New Arrivals
           </span>
-          <br />
-          <span className="text-coral-red inline-block mt-3">Nike </span> Shoes
+          <br />@{" "}
+          <span className="text-sky-400 inline-block mt-3">SneakerX </span>{" "}
         </h1>
         <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm ">
-          Discover stylish Nike arrivals, quality comfort, and innovation for
-          your active life.
+          Discover stylish SneakerX arrivals, quality comfort, and innovation
+          for your active life.
         </p>
         <Button label="Shop now" iconURL={arrowRight} />
 
@@ -43,7 +43,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center  ">
+      <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-sky-200 bg-opacity-80 bg-cover bg-center  ">
         <img
           src={bigShoeImg}
           alt="shoe collection"
