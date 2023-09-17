@@ -100,8 +100,9 @@ export const reviews = [
       "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
   },
   {
-    imgURL: customer2,
-    customerName: "Lota Mongeskar",
+    imgURL:
+      "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80",
+    customerName: "LB Stevens",
     rating: 4.5,
     feedback:
       "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",

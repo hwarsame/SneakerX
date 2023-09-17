@@ -1,5 +1,7 @@
+import { offer } from "../assets/images";
+
 const SpecialOffers = () => {
-  return <div>SpecialOffers</div>;
+  return <div></div>;
 };
 
 export default SpecialOffers;
