@@ -1,8 +1,20 @@
-import React from "react";
-
-const Button = ({ label, iconURL }) => {
+const Button = ({
+  label,
+  iconURL,
+  backgroundColor,
+  textColor,
+  borderColor,
+  fullWidth,
+}) => {
   return (
-    <button className="flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-sky-400 rounded-full text-white hover:bg-sky-500 border-sky-600 ">
+    <button
+      className={`flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none
+      ${
+        backgroundColor
+          ? `${backgroundColor} ${textColor} ${borderColor}`
+          : "bg-sky-400 text-white border-sky-400"
+      } rounded-full ${fullWidth && "w-full"}`}
+    >
       {label}
       {iconURL && (
         <img
